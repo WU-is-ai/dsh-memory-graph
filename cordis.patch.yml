@@ -1,0 +1,5 @@
+- insert:
+    - id: memory-graph
+      name: dsh-memory-graph
+      config:
+        dataDir: 'D:\dsh-memory\data'

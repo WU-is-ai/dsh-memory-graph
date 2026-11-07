@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory star map",
+    "description": "Draws the memory store as a constellation: memories closer to the centre are harder to forget, fading ones drift outward and dim. Click a star to read it."
+  }
+}

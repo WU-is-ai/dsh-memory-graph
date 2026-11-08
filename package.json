@@ -1,9 +1,9 @@
 {
   "name": "dsh-memory-graph",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Memory star map: draws the mnemon memory store as a navigable constellation, with weighted decay and entity relations",
+  "description": "把 mnemon 记忆库画成可导航星图：权重衰减 + 实体关系，只读不改库 / Memory star map for mnemon",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -18,7 +18,9 @@
     "icon.svg"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true
